@@ -65,7 +65,7 @@ deploy:
   file: $HOME/twrp/*.img
   on:
     tags: false # Set "true" to deploy only on successful tagged commit builds
-    repo: ${_USERNAME_}/${_REPO_SLUG_} # Optional: If you want to deploy on different repository
+    repo: mohamedfaky/twrp_x680b-unofficial # Optional: If you want to deploy on different repository
     branch: master # Optional: Needs to be exact as the config branch
 branches:
   only:
